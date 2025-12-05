@@ -1,0 +1,3 @@
+Designed a market-neutral, mean-reversion strategy by performing the Engle-Granger Cointegration Test on candidate pairs (e.g., PEP/KO) to statistically confirm a long-term relationship (p < 0.05).
+Calculated the optimal Hedge Ratio (β) using OLS Regression and generated signals based on the Z-score (±2.0 std dev entry). Incorporated stop-loss protocols (e.g., ±3.0 std dev) and dynamic position sizing to limit single-trade loss exposure to < 2%.
+Implemented a full backtesting engine accounting for transaction costs (e.g.,10 bps commission), achieving an annualized Sharpe Ratio of 1.85 and maintaining a Maximum Drawdown of less than 10%, characteristic of robust statistical arbitrage strategies.
